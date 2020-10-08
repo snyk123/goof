@@ -1,0 +1,61 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - snyk > @snyk/dep-graph > lodash:
+        patched: '2020-10-04T15:58:15.667Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > lodash:
+        patched: '2020-10-04T15:58:15.667Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/dep-graph > lodash:
+        patched: '2020-10-04T15:58:15.667Z'
+    - tap > nyc > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2020-10-04T15:58:15.667Z'
+    - tap > nyc > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2020-10-04T15:58:15.667Z'
+    - tap > nyc > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2020-10-04T15:58:15.667Z'
+    - tap > nyc > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2020-10-04T15:58:15.667Z'
+    - tap > nyc > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2020-10-04T15:58:15.667Z'
+    - tap > nyc > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2020-10-04T15:58:15.667Z'
+    - tap > nyc > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2020-10-04T15:58:15.667Z'
+    - tap > nyc > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2020-10-04T15:58:15.667Z'
+    - tap > nyc > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-10-04T15:58:15.667Z'
+    - snyk > lodash:
+        patched: '2020-10-04T15:58:15.667Z'
+    - snyk > inquirer > lodash:
+        patched: '2020-10-04T15:58:15.667Z'
+    - snyk > snyk-config > lodash:
+        patched: '2020-10-04T15:58:15.667Z'
+    - snyk > snyk-mvn-plugin > lodash:
+        patched: '2020-10-04T15:58:15.667Z'
+    - snyk > snyk-nodejs-lockfile-parser > lodash:
+        patched: '2020-10-04T15:58:15.667Z'
+    - snyk > snyk-nuget-plugin > lodash:
+        patched: '2020-10-04T15:58:15.667Z'
+    - snyk > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-10-04T15:58:15.667Z'
+    - snyk > snyk-go-plugin > graphlib > lodash:
+        patched: '2020-10-04T15:58:15.667Z'
+    - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        patched: '2020-10-04T15:58:15.667Z'
+    - snyk > snyk-nuget-plugin > dotnet-deps-parser > lodash:
+        patched: '2020-10-04T15:58:15.667Z'
+    - snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
+        patched: '2020-10-04T15:58:15.667Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-10-04T15:58:15.667Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/ruby-semver > lodash:
+        patched: '2020-10-04T15:58:15.667Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-10-04T15:58:15.667Z'
+  'npm:ms:20151024':
+    - humanize-ms > ms:
+        patched: '2020-10-04T15:58:15.667Z'
